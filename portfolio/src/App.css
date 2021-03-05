@@ -1,7 +1,19 @@
-.navbar-center{
-    margin-left: 30%;
+/* .navbar-center{
+    margin-left: 50%;
+    font-size: 2vh;
 }
 
 .navbar-right {
     margin-left: 70%;
+} */
+
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    background: none;
+}
+
+.navbar-link {
+    font-size: 2vh;
 }

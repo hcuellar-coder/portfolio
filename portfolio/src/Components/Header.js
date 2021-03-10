@@ -1,8 +1,10 @@
 import React from 'react';
 import NavBar from './NavBar';
 import headerPortrait from '../Images/hcuellar-small.jpg'
+import { useSpring, animated } from 'react-spring';
 
 function Header() {
+
     return (
         <div className="header-image">
             <NavBar />
